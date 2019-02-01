@@ -1,28 +1,20 @@
 <?php
-$welcome_msg = [
-    'welcome 1',
-    'welcome 2',
-    'welcome 3'
+$msg_arr = [
+    'Welcome message NO. 1',
+    'Welcome message NO. 2',
+    'Welcome message NO. 3'
 ];
-$rand_msg = round(date('s')%10);
-if ($rand_msg <= 10) {
-    $show = 0;
-} else if ($rand_msg > 10 && $rand_msg <= 20) {
-    $show = 1;
-} else {
-    $show = 2;
-};
-print date('s') . '<br>';
-print $rand_msg;
+$rand_msg = ceil(date('s') / 10);
+$welcome_msg = $msg_arr[$rand_msg % 3];
 ?>
 <html>
     <head>
         <title>DUXY</title>
         <link rel="stylesheet" href="css/main.css">
     </head>
-    <body>
-        <nav>Navigation</nav>
-        <h1>TEAM NAME</h1>
-        <h2><?php print $welcome_msg[$show]; ?></h2>
+    <body class="bg-about">
+        <?php require 'nav.php'; ?>
+        <h1>Mes - 2XY</h1>
+        <h2><?php print $welcome_msg; ?></h2>
     </body>
 </html>
