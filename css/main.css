@@ -1,5 +1,5 @@
 body {
-    font-size: 20pt;
+    font-size: 20px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -11,7 +11,6 @@ body {
     background-image: url('../images/black.jpg');
     color: white;
 }
-
 .backgroundimg {
     background-image: url('../images/friend.png');
     text-align: center;
@@ -45,4 +44,34 @@ a span {
 }
 a:hover {
     color: gold;
+}
+.termometras {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+}
+
+.padala, .padala-start {
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    background-color: grey;
+    margin: 5px;
+    height: 30px;
+    width: 100px;
+}
+.padala-start {
+    background-color: green;
+}
+.PX {
+    background-color: green;
+}
+.BL {
+    background-color: yellow;
+}
+.NX {
+    background-color: orange;
+}
+.PZ2A {
+    background-color: red;
 }
