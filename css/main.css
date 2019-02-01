@@ -1,3 +1,80 @@
 .backgroundimg {
       background-image: url('../images/friend.jpg');
 }
+body {
+    font-size: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-0 {
+    background-image: url('../images/white.jpg');
+    color: black;
+}
+.about-1 {
+    background-image: url('../images/black.jpg');
+    color: white;
+}
+.backgroundimg {
+    background-image: url('../images/friend.png');
+    text-align: center;
+} 
+.hashas {
+    color: green;
+}
+.bg-about {
+    color: white;
+    background-image: url('../images/bg_about.jpg');
+}
+.bg-about h1, .bg-about h2 {
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 2px;
+    float: left;
+    clear: both;
+    background-color: rgba(0,0,0,0.5);
+}
+nav {
+    width: 100%;
+    display: flex;
+}
+a {
+    margin: 0 0 20px 70px;
+    color: white;
+}
+a span {
+    padding: 5px;
+    background-color: rgba(0,0,0,0.5);
+}
+a:hover {
+    color: gold;
+}
+.termometras {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+}
+
+.padala, .padala-start {
+    text-align: center;
+    line-height: 30px;
+    color: black;
+    background-color: grey;
+    margin: 5px;
+    height: 30px;
+    width: 100px;
+}
+.padala-start {
+    background-color: green;
+}
+.PX {
+    background-color: green;
+}
+.BL {
+    background-color: yellow;
+}
+.NX {
+    background-color: orange;
+}
+.PZ2A {
+    background-color: red;
+}
