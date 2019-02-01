@@ -1,8 +1,27 @@
+body {
+    font-size: 20pt;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-0 {
+    background-image: url('../images/white.jpg');
+    color: black;
+}
+.about-1 {
+    background-image: url('../images/black.jpg');
+    color: white;
+}
+
+.backgroundimg {
+    background-image: url('../images/friend.png');
+    text-align: center;
+} 
+.hashas {
+    color: green;
+}
 .bg-about {
     color: white;
     background-image: url('../images/bg_about.jpg');
-    background-size: stretch;
-    background-repeat: no-repeat;
 }
 .bg-about h1, .bg-about h2 {
     margin-left: 20px;
@@ -26,28 +45,4 @@ a span {
 }
 a:hover {
     color: gold;
-}
-body {
-    font-size: 20pt;
-    height: 1200px;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.about-0{
-    background-image: url(../images/white.jpg);
-    color: black;
-}
-.about-1{
-    background-image: url(../images/black.jpg);
-    color: white;
-}
-
-.backgroundimg {
-    background-image: url('../images/friend.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center;
-} 
-.hashas {
-    color: green;
 }

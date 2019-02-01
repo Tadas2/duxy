@@ -13,7 +13,7 @@ $welcome_msg = $msg_arr[$rand_msg % 3];
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body class="bg-about">
-        <?php require 'nav.php'; ?>
+        <?php require 'inc/nav.php'; ?>
         <h1>Mes - 2XY</h1>
         <h2><?php print $welcome_msg; ?></h2>
     </body>
