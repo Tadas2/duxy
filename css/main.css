@@ -1,3 +1,4 @@
+
 body {
     font-size: 20pt;
     height: 1200px;
@@ -11,4 +12,15 @@ body {
 .about-1{
     background-image: url(../images/black.jpg);
     color: white;
+}
+
+.backgroundimg {
+    background-image: url('../images/friend.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+} 
+.hashas {
+    color: green;
+
 }
