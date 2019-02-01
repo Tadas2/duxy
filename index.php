@@ -1,8 +1,8 @@
 <?php
 $msg_arr = [
-    'Welcome message NO. 1',
-    'Welcome message NO. 2',
-    'Welcome message NO. 3'
+    'A diplomat is a man who always remembers a womans birthday but never remembers her age.',
+    'We like older women because theyve gotten used to lifes disappointments. Which means theyre ready for us.',
+    'Got an e-mail today from a "bored housewife 33, looking for some action!" Ive sent her my ironing, thatll keep her busy.'
 ];
 $rand_msg = ceil(date('s') / 10);
 $welcome_msg = $msg_arr[$rand_msg % 3];
