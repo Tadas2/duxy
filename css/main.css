@@ -1,0 +1,14 @@
+body {
+    font-size: 20pt;
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-0{
+    background-image: url(../images/white.jpg);
+    color: black;
+}
+.about-1{
+    background-image: url(../images/black.jpg);
+    color: white;
+}
