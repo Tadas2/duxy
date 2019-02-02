@@ -45,33 +45,48 @@ a span {
 a:hover {
     color: gold;
 }
+.body-pz2a-mat {
+    background-color: black;
+}
+.body-pz2a-mat h1 {
+    color: white;
+}
 .termometras {
+    text-align: center;
+    margin-left: 50px;
     display: flex;
     flex-direction: row;
-    width: 1000px;
+    align-items: center;
 }
-
-.padala, .padala-start {
-    text-align: center;
-    line-height: 30px;
+.termometras div {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
     color: black;
-    background-color: grey;
-    margin: 5px;
-    height: 30px;
-    width: 100px;
+    margin: 5px 2px 5px 0;
+    border-radius: 3px;
 }
-.padala-start {
+.termometras div:nth-child(1) {
+    height: 120px;
+    width: 120px;
+    line-height: 100px;
+    color: white;
+    font-size: 5em;
+    margin: 5px 5px 5px 0;
+    border-radius: 50% 50% 50% 50%;
+}
+.green {
     background-color: green;
 }
-.PX {
-    background-color: green;
+.gold {
+    background-color: gold;
 }
-.BL {
-    background-color: yellow;
-}
-.NX {
+.orange {
     background-color: orange;
 }
-.PZ2A {
-    background-color: red;
+.brown {
+    background-color: brown;
+}
+.gray {
+    background-color: gray;
 }
